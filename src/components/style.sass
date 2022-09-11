@@ -1,0 +1,35 @@
+%flex
+    justify-self: flex-end
+    flex-direction: column
+    justify-content: space-between
+    display: flex
+
+$color-hover: #fdde1b
+$white: #fff
+   
+
+aside
+    @extend %flex
+    grid-area: 1 / 3 / 3 / 4
+    z-index: 3
+    padding-top: 3.25rem
+    gap: 30px
+    position: absolute
+    right: 25px
+    top: 50px
+
+aside nav
+    display: flex
+    gap: 3.56rem
+    writing-mode: vertical-lr
+    align-self: flex-end
+
+nav a 
+    color: $white
+    font-size: 1.1rem
+    transition: 0.3s ease
+    text-decoration: none
+
+    &:hover, &:focus 
+        transform: scale(1.1)
+        color: $color-hover

@@ -1,0 +1,133 @@
+@import 'includes'
+
+*
+    color: #fdde1b
+    font-family: 'Poppins', sans-serif
+
+
+main 
+    @include flex(space-between, none)
+    width: 100vw
+    height: 100%
+    
+   
+.apresentacao
+    height: 100vh
+    width: 250px
+    @include flex(space-between, none)
+    flex-direction: column
+   
+    
+
+.div-logo
+    width: 250px
+    @include flex(none, center)
+    padding-left: 10px
+    padding-top: 20px
+
+.div-logo img
+    width: 50px
+    margin-right: 5px
+
+.div-logo p
+    text-transform: uppercase
+    letter-spacing: 5px
+    font-size: 15px
+
+.dev
+    padding-bottom: 20px
+    padding-left: 20px 
+
+.dev h1 
+     font-size: 17px
+     font-weight: 300
+     color: #fff
+
+.dev p
+    font-size: 15px
+    margin-top: -5px
+
+.image
+    width: 500px
+    @include flex(center, none)
+    flex-direction: column
+   
+
+.img
+    grid-area: 1 / 1 / -1 / 4
+    @include flex(center, flex-end)
+    position: relative
+
+.svg-circle
+     position: absolute
+     bottom: 3%
+     width: 500px
+     max-height: 85%
+     min-width: 55vh
+     z-index: -2
+
+.svg-circle circle
+    stroke: #fdde1b
+    animation: anime infinite 10s
+
+@keyframes anime
+    0%
+        stroke: #fdde1b
+
+    25%
+        stroke: #ffae22
+
+    50%
+        stroke: #ee4d17
+       
+
+    75%
+        stroke: #fa941f
+        
+    100%
+        stroke: #fdde1b
+        
+    
+.zenitsu
+    display: block
+    min-width: 45vh
+    max-height: 85%
+    z-index: 1
+    animation: float infinite 7s
+
+
+    
+@keyframes float
+    0%
+        transform: translateY(0)
+        
+    50%
+        transform: translateY(-20px)
+
+    100%
+        transform: translateY(0)
+    
+
+.redes
+    @include flex(space-between, flex-end)
+    width: 100px
+    margin-right: 50px
+    margin-bottom: 10px
+
+    & a
+        font-size: 20px
+
+.redes i:hover
+    color: orange
+
+.fa-github, .fa-youtube
+    color: #fff
+        
+        
+
+
+
+    
+
+        
+
