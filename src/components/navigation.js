@@ -7,7 +7,7 @@ export default function Navigation() {
 
  return (
    <aside>
-         <nav class="nav">
+         <nav className="nav">
           <Link to='/' className="link">Home</Link>
           <Link to='/sobre' className="link">About</Link>
           <Link to='/projetos' className="link">Projects</Link>
