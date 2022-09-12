@@ -6,13 +6,11 @@ Deploy:  [https://onlineshop-projeto.netlify.app/](https://angelogustavo-portifo
 Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêriencias, conhecimentos e projetos. 
 </p>
 
-## 📱 Layout para Celular
-<br>
 
-## 💻 Layout para Web
+## 💻 Layout Responsivo
 <br>
 <p align='center'>
-<img width='700' src='/src/gif-demo/gif.gif'>
+<img width='700' src='/src/gifs-demo/videonovo.gif'>
 </p>
 
 <br>
@@ -20,16 +18,15 @@ Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêri
 <br>
 
 - React Js
-- CSS3
+- SASS
 <br>
 
 ## Implantação em produção
 
 - Web de front-end: Netlify
 - Flexbox
+- Grid Template
 - Hooks
-- Axios
-- Context API
 - React Router Dom
 <br>
 
