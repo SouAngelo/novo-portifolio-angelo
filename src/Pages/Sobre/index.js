@@ -51,7 +51,7 @@ export default function Sobre() {
              </p>
        
               <div className='aboute-links'>
-                <a href='#'>Currículo  <i className="fa-solid fa-file"></i></a>
+                <a href='https://drive.google.com/u/1/uc?id=1fFXAqAH5i-TMAcpb_6jXVUOD2nOZrIc8&export=download'>Currículo  <i className="fa-solid fa-file"></i></a>
                 <a href='https://github.com/SouAngelo' target='_blank' className='link-purple'>Github  <i className="fa-brands fa-github"></i></a>
                 <a href='https://www.linkedin.com/in/souangelogustavo/' target='_blank'>LinkedIn  <i className="fa-brands fa-linkedin"></i></a>
               </div>
