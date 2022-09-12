@@ -12,7 +12,7 @@ Esse é o meu portifólio, feito para mostrar um pouco sobre mim, minhas expêri
 ## 💻 Layout para Web
 <br>
 <p align='center'>
-<img width='700' src='/src/gif-demo/gif.gif'>
+<img width='700' src='/src/gifs-demo/videonovo.gif'>
 </p>
 
 <br>
