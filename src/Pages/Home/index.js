@@ -4,7 +4,7 @@ import './sass/Home.sass'
 
 export default function Main() {
  return (
-   <main>
+   <main className='main-home'>
       <div className='apresentacao'>
         <div className='div-logo'>
           <img src='https://upload.wikimedia.org/wikipedia/commons/0/08/AIMP3_Logo.png'/>
@@ -34,6 +34,12 @@ export default function Main() {
         <a href='https://api.whatsapp.com/send?phone=5511985024510' target='_blank'><i className="fa-brands fa-whatsapp"></i></a>
         <a href='https://youtube.com/channel/UCgznEqXuuQQ3I4qviE02WJA' target='_blank'><i className="fa-brands fa-youtube"></i></a>
       </div>
+
+      <h2 className='devjr-text'><span>D</span><span>e</span><span>s</span>
+      <span>e</span><span>n</span><span>v</span><span>o</span><span>l</span>
+      <span>v</span><span>e</span><span>d</span><span>o</span><span>r</span> 
+      <span className='front'>F</span><span className='front'>r</span><span className='front'>o</span><span className='front'>n</span><span className='front'>t</span>
+      <span className='end'>E</span><span className='end'>n</span><span className='end'>d</span><span className='end'>J</span><span className='end'>r</span>  </h2>
    </main>
  );
 }

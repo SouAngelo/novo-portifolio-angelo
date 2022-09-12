@@ -5,10 +5,16 @@
     font-family: 'Poppins', sans-serif
 
 
-main 
+.main-home 
     @include flex(space-between, none)
     width: 100vw
     height: 100%
+    position: relative
+    @media screen and(max-width: 832px)
+        flex-direction: column
+        height: 90vh
+        @include flex(space-between, center)
+        overflow: hidden
     
    
 .apresentacao
@@ -16,6 +22,12 @@ main
     width: 250px
     @include flex(space-between, none)
     flex-direction: column
+    @media screen and(max-width: 832px)
+        flex-direction: row 
+        @include flex(space-around, center)
+        height: 100px
+        width: 100vw
+       
    
     
 
@@ -24,19 +36,34 @@ main
     @include flex(none, center)
     padding-left: 10px
     padding-top: 20px
+    @media screen and(max-width: 832px)
+        width: 100%
+        padding: 0
+        position: absolute
+        flex-direction: column
+        top: 100px
+    @media screen and(max-width: 600px)
+        top: 150px
 
 .div-logo img
     width: 50px
     margin-right: 5px
+    @media screen and(max-width: 600px)
+        width: 40px
 
 .div-logo p
     text-transform: uppercase
     letter-spacing: 5px
     font-size: 15px
+    @media screen and(max-width: 600px)
+        font-size: 14px
 
 .dev
     padding-bottom: 20px
-    padding-left: 20px 
+    padding-left: 20px
+    @media screen and(max-width: 832px)
+        @include flex(center, center)
+        display: none
 
 .dev h1 
      font-size: 17px
@@ -47,16 +74,24 @@ main
     font-size: 15px
     margin-top: -5px
 
+
 .image
     width: 500px
     @include flex(center, none)
     flex-direction: column
    
+    @media screen and(max-width: 832px)
+        width: 100vw
+        
 
 .img
-    grid-area: 1 / 1 / -1 / 4
     @include flex(center, flex-end)
     position: relative
+    @media screen and(max-width: 893px)
+        margin-left: -50px
+    @media screen and(max-width: 832px)
+        margin-left: 0
+    
 
 .svg-circle
      position: absolute
@@ -90,10 +125,13 @@ main
     
 .zenitsu
     display: block
-    min-width: 45vh
+    min-width: 35vw
     max-height: 85%
     z-index: 1
     animation: float infinite 7s
+    @media screen and(max-width: 832px)
+        min-width: 40vh
+        width: 50vw
 
 
     
@@ -113,9 +151,16 @@ main
     width: 100px
     margin-right: 50px
     margin-bottom: 10px
+    @media screen and(max-width: 832px)
+        width: 100vw
+        margin: 0
+        @include flex(center, center)
+        gap: 50px
+        margin-bottom: 25px
 
     & a
         font-size: 20px
+       
 
 .redes i:hover
     color: orange
@@ -123,11 +168,32 @@ main
 .fa-github, .fa-youtube
     color: #fff
         
+.devjr-text
+    display: none 
+    @media screen and(max-width: 832px)
+        display: block 
+        position: fixed
+        left: -20px
+        top: 100px
+        writing-mode: vertical-rl
+        text-transform: uppercase
+        
+        
+        span
+            display: inline-block
+            transform: rotate(-90deg)
+            letter-spacing: 13px
+            font-size: 11px
+            
+
+.front
+    color: orange
+
+.end
+    color: #bb4024
+
+        
+        
         
 
-
-
-    
-
-        
 
