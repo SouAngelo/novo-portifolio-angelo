@@ -10,8 +10,7 @@ export const links = {
     landingMentor: 'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/wqzotbyfysz9pbfk9jus.jpg',
     todoList: 'https://img.freepik.com/free-vector/tiny-man-woman-standing-near-list-couple-ticking-off-items-check-list-flat-vector-illustration-daily-routine-busy-lifestyle-concept-banner-website-design-landing-web-page_74855-22067.jpg?w=2000',
     landingTech: 'https://img.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg?w=2000',
-    embreve: 'https://static.vecteezy.com/ti/vetor-gratis/p3/7516682-em-breve-design-de-banner-com-de-fundo-de-cor-dourada-e-preta-vetor.jpg'
-
-
+    embreve: 'https://static.vecteezy.com/ti/vetor-gratis/p3/7516682-em-breve-design-de-banner-com-de-fundo-de-cor-dourada-e-preta-vetor.jpg',
+    netflix: 'https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2021/11/netflix-e1636816367762.jpg'
 
 }

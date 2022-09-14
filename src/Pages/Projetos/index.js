@@ -197,20 +197,20 @@ export default function Projetos() {
 
       <div className='card-project'>
         <div  className='image-project'>
-           <img src={links.embreve}/>
+           <img src={links.netflix}/>
          </div>
 
          <div className='project-info'>
             
             <div className='container-hover'>
-               <p>Em breve</p>
+               <p>Clone Netflix</p>
                <div className='project-acess'>
-                 <a href='#' target='_blank'>Github</a>
-                 <a href='#' target='_blank'>Site</a>
+                 <a href='https://github.com/SouAngelo/clone_netflix' target='_blank'>Github</a>
+                 <a href='https://clone-netflix-hiroto.netlify.app/' target='_blank'>Site</a>
                 </div>
 
                <div className='technology'>
-                  <p>Será lançado em breve</p>
+                  <p>React Js, Hooks, Axios, SASS, API</p>
                </div>
             </div>
 
